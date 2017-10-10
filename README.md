@@ -29,6 +29,9 @@ Jsoul1227@hotmail.com
 ZJCalender is available under the MIT license. See the LICENSE file for more info.
 
 ## MoreInfo
+
+支持很多功能的日历, 由于日历为单例, 数据可以在多个不同的日历之间共享, 另外支持农历, 完全满足酒店短租App的需求和逻辑, 例如: 起始日不能为已租日, 终止日可以为已租日, 起始终止时间不能包含已租日, 不同的错误不同回调, 控件相较于知名日历控件比较轻, 也几乎能满足使用, 以下只举几个例子看效果... 大家也可以下载App: 旅途逸居看具体使用效果.
+
 ## 效果
 
 ###     1.简单多选全屏模式
