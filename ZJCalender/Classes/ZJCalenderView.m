@@ -266,7 +266,10 @@
         }
         selfWeak.monthModelArray = monthModelArray;
         selfWeak.visibleIndex = 0;
-        _nextMonthBtn.enabled = YES;
+        // [UIButton setEnabled:] must be used from main thread only
+        dispatch_async(dispatch_get_main_queue(), ^{
+            selfWeak.nextMonthBtn.enabled = YES;
+        });
     }];
 }
 
